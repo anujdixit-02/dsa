@@ -3,16 +3,16 @@
 using namespace std;
 
 int getMax(int arr[], int n){
-  int min = INT_MAX;
+  int mini = INT_MAX;
 
   for(int i = 0; i < n; i++){
 
-    max = max(max,arr[])
+    mini = min(mini,arr[i]);//built in fuction   
     //if(arr[i] < min){
      // min = arr[i];
     //}
   }
-  return min;
+  return mini;
 }
 
 int main (){
