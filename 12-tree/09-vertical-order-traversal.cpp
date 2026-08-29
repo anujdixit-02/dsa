@@ -18,9 +18,9 @@ public:
 };
 
 vector<int> verticalOrder(node* root){
-
+//or Vertical Order Traversal, we need the level to know the vertical position from top to bottom when multiple nodes have the same Horizontal Distance (HD).
     map<int, map<int, vector<int>>> nodes;
-    queue<pair<node*, pair<int,int>>> q;
+    queue<pair<node*, pair<int,int>>> q;//(node pointer, (HD, Level))
     vector<int> ans;
 
     if(root == NULL){
